@@ -27,7 +27,7 @@ Configuration
 
 Add ``piwik`` to the list of ``INSTALLED_APPS`` in your ``settings.py`` file.
 
-Also ``PIWIK_SITE_ID`` (e.g. ``1``) and ``PIWIK_URL`` (e.g. ``'http://piwik.example.com/'``, please don't forget the trailing slash!) are required.
+Also ``PIWIK_SITE_ID`` (e.g. ``1``) and ``PIWIK_URL`` (e.g. ``'piwik.example.com'``) are required.
 
 
 In the template, put ``{% load piwik_tags %}`` to the top and add ``{% tracking_code %}`` before the ``</body>`` tag.
